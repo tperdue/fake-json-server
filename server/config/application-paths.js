@@ -10,7 +10,7 @@ const clientRoot = path.join(__dirname, '..', '..', 'client');
 exports.controllersPath = path.join(applicatonRoot, 'controllers');
 exports.modelsPath = path.join(applicatonRoot, 'models');
 exports.routesPath = path.join(applicatonRoot, 'routes');
-exports.viewsPath = path.join(applicationRoot, 'views');
+exports.viewsPath = path.join(applicatonRoot, 'views');
 
 
 
