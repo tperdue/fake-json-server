@@ -9,4 +9,5 @@ const loadRouter = (routerName) => {
 module.exports = (app) => {
 
     app.use('/', loadRouter('pages'));
+    app.use('/players', loadRouter('players'));
 }
