@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/.bin/nodemon ./server/server.js",
-    "create-model": "node ./server/dev-tools/schema/create-schema.js"
+    "dev": "node_modules/.bin/nodemon ./server/server.js",
+    "create-model": "node ./server/dev-tools/schema/create-schema.js",
+    "start": "node ./server/server.js"
   },
   "repository": {
     "type": "git",
